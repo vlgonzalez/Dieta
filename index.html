@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Gasto calorico diario</title>
+</head>
+<body>
+    
+        <p id="nota"><strong>Nota:</strong> A calculadora abaixo tem apenas como fim de aprendizagem em Java script. A fonte dos calculos foi o video abaixo, do  <a href="https://www.leandrotwin.com.br/site/" target="_blank"></br> Educador Fisico Leandro Twin</a>, para um calculo mais detalhado procure um profissional especializado na area. </p>
+    <main>
+        
+        <h1>Calculadora de Gasto Calórico Diário </h1>
+        <p>Peso: <input type="number" name="peso" id="peso"> Kilos</p>
+        <p>Altura: <input type="number" name="altura" id="altura"> Centimetros</p>
+        <p>Idade: <input type="number" name="idade" id="idade"> Anos</p>
+        <p> Sexo:
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+        <p id="btn"><input type="button" value="Calcular" onclick="calcular()" ></p>
+        <div id="res"> 
+        </div>
+</main>
+<div id="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Kz5zNRAvEyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<footer>
+        
+    <p>  <a href="https://www.linkedin.com/in/vin%C3%ADcius-gonzalez-758425b9/" target="_blank" rel="noopener noreferrer"><img src="img/link.png" alt="">Vinicius-Gonzalez</a>
+         </p>
+    <p>
+         <a href="https://github.com/vlgonzalez" target="_blank"class="fa fa-github"><img src="img/git.png" alt="">Vlgonzalez</a>
+    </p>
+     
+    <p>
+        <a href="https://www.facebook.com/vinicius.gonzalez19" target="_blank" rel="noopener noreferrer"><img src="img/face.png" alt="facebook">Vinicius</a>                
+    </p>
+    <p id="criador">Create by @Vlgonzalez</p>
+</footer>
+</body>
+</html>
