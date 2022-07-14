@@ -34,6 +34,11 @@ a{
 a:hover{
     color: var(--cor1);
 }
+@media (max-width: 800px){
+    #nota{
+        font-size: large;
+    }
+}
 main{
     background-color: var(--cor2);
     margin-top: 70px;
@@ -54,11 +59,26 @@ main p{
 }
 #res{
     padding-top: 20px;
-}    
+}
+@media (max-width: 800px){
+    main{
+    margin-left: 50px;
+    width: 60vh;
+}
+    main h1{
+        font-size: medium;
+    }
+}
 iframe{
     margin-top: 20px;
     margin-left: 480px;
 }
+@media (max-width: 800px){
+    iframe{
+        margin-left: 50px;
+        width: 75vh;
+    }
+    }
 footer{
     margin-top: 20px;
     background-color:#020202;
