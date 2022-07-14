@@ -37,6 +37,7 @@ a:hover{
 @media (max-width: 800px){
     #nota{
         font-size: large;
+        margin-left: 10px;
     }
 }
 main{
@@ -62,7 +63,7 @@ main p{
 }
 @media (max-width: 800px){
     main{
-    margin-left: 50px;
+    margin-left: 10px;
     width: 60vh;
 }
     main h1{
@@ -75,7 +76,7 @@ iframe{
 }
 @media (max-width: 800px){
     iframe{
-        margin-left: 50px;
+        margin-left: 10px;
         width: 75vh;
     }
     }
