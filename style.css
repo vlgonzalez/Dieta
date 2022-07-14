@@ -20,9 +20,52 @@ body{
     background-color: var(--cor3);
     
 }
+header{
+    background-color: var(--cor0);
+    z-index: 1;
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+header h1{
+    color: var(--cor1);
+    margin-left: var(--horizontal_margin);
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 3em;
+    font-family: 'Changa One', cursive;
+}
+nav a{
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bold;
+}
+nav a:hover{
+    color: var(--cor1);
+}
+ul#menu{
+    margin-right: var(--horizontal_margin);
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    display: flex;
+}
+li.menu{
+    text-align: center;
+    margin-left: 2vh;
+    font-family: var(--fonte-p);
+}
+@media (max-width: 800px){
+    header h1{
+    font-size: 1em;
+}}
 #nota{
     color: var(--cor2);
-    padding-top: 50px;
+    padding-top: 80px;
     margin-right: 100px;
     margin-left: 50px;
     font-size: 1.5em;
