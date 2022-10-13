@@ -1,2 +1,4 @@
 # Dieta
- Calculo de gasto calorico
+ Calculo de gasto calorico utilizando JavaScript 
+ 
+ 
